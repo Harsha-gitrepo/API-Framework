@@ -21,4 +21,76 @@ public class payload {
                 "  \"language\": \"French-IN\"\n" +
                 "}\n";
     }
+
+
+    public static String UpdatePlace(String placeID)
+    {
+        String newAddress = "70 Summer walk, USA";
+
+        return "{\n" +
+                "\"place_id\":\""+placeID+"\",\n" +
+                "\"address\":\""+newAddress+"\",\n" +
+                "\"key\":\"qaclick123\"\n" +
+                "}\n";
+    }
+
+    public static String CoursePrice()
+    {
+        return "{\n" +
+                "\n" +
+                "\"dashboard\": {\n" +
+                "\n" +
+                "\"purchaseAmount\": 910,\n" +
+                "\n" +
+                "\"website\": \"rahulshettyacademy.com\"\n" +
+                "\n" +
+                "},\n" +
+                "\n" +
+                "\"courses\": [\n" +
+                "\n" +
+                "{\n" +
+                "\n" +
+                "\"title\": \"Selenium Python\",\n" +
+                "\n" +
+                "\"price\": 50,\n" +
+                "\n" +
+                "\"copies\": 6\n" +
+                "\n" +
+                "},\n" +
+                "\n" +
+                "{\n" +
+                "\n" +
+                "\"title\": \"Cypress\",\n" +
+                "\n" +
+                "\"price\": 40,\n" +
+                "\n" +
+                "\"copies\": 4\n" +
+                "\n" +
+                "},\n" +
+                "\n" +
+                "{\n" +
+                "\n" +
+                "\"title\": \"RPA\",\n" +
+                "\n" +
+                "\"price\": 45,\n" +
+                "\n" +
+                "\"copies\": 10\n" +
+                "\n" +
+                "}\n" +
+                "\n" +
+                "]\n" +
+                "\n" +
+                "}\n" +
+                "\n";
+    }
+
+    public static String AddBook()
+    {
+        return "{\n" +
+                "\"name\":\"Learn Appium Automation with Java\",\n" +
+                "\"isbn\":\"bcd\",\n" +
+                "\"aisle\":\"227\",\n" +
+                "\"author\":\"John foe\"\n" +
+                "}\n";
+    }
 }
