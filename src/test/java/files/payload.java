@@ -84,13 +84,44 @@ public class payload {
                 "\n";
     }
 
-    public static String AddBook()
+    public static String AddBook(String aisle, String isbn)
     {
         return "{\n" +
                 "\"name\":\"Learn Appium Automation with Java\",\n" +
-                "\"isbn\":\"bcd\",\n" +
-                "\"aisle\":\"227\",\n" +
+                "\"isbn\":\""+isbn+"\",\n" +
+                "\"aisle\":\""+aisle+"\",\n" +
                 "\"author\":\"John foe\"\n" +
                 "}\n";
+    }
+
+    public static String createBug(String summary)
+    {
+        return "{\n" +
+                "    \"fields\": {\n" +
+                "       \"project\":\n" +
+                "       {\n" +
+                "          \"key\": \"AT\"\n" +
+                "       },\n" +
+                "       \"summary\": \""+summary+"\",\n" +
+                "       \"description\": {\n" +
+                "          \"type\": \"doc\",\n" +
+                "          \"version\": 1,\n" +
+                "          \"content\": [\n" +
+                "            {\n" +
+                "              \"type\": \"paragraph\",\n" +
+                "              \"content\": [\n" +
+                "                {\n" +
+                "                  \"type\": \"text\",\n" +
+                "                  \"text\": \"description\"\n" +
+                "                }\n" +
+                "              ]\n" +
+                "            }\n" +
+                "          ]\n" +
+                "        },\n" +
+                "       \"issuetype\": {\n" +
+                "          \"name\": \"Bug\"\n" +
+                "       }\n" +
+                "   }\n" +
+                "}";
     }
 }
