@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd290c5-5d50-4f36-afbf-d65888a3b318" name="Changes" comment="20/11/2024 - 11:51 AM">
-      <change afterPath="$PROJECT_DIR$/src/test/java/OAuthTest/OAuthTest.java" afterDir="false" />
+    <list default="true" id="0dd290c5-5d50-4f36-afbf-d65888a3b318" name="Changes" comment="20/11/2024 - 09:40 PM">
+      <change afterPath="$PROJECT_DIR$/src/test/java/POJO/Api.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/POJO/Mobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/POJO/WebAutomation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/POJO/courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/POJO/getCourse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/files/Basics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/files/resources/Image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732083698245</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="20/11/2024 - 09:40 PM">
+      <created>1732119044408</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732119044408</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +216,7 @@
     <MESSAGE value="API Framework Second Commit" />
     <MESSAGE value="19/11/2024 - 09:02 AM" />
     <MESSAGE value="20/11/2024 - 11:51 AM" />
-    <option name="LAST_COMMIT_MESSAGE" value="20/11/2024 - 11:51 AM" />
+    <MESSAGE value="20/11/2024 - 09:40 PM" />
+    <option name="LAST_COMMIT_MESSAGE" value="20/11/2024 - 09:40 PM" />
   </component>
 </project>
