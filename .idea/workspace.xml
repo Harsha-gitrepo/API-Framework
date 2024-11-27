@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd290c5-5d50-4f36-afbf-d65888a3b318" name="Changes" comment="20/11/2024 - 09:40 PM">
-      <change afterPath="$PROJECT_DIR$/src/test/java/POJO/Api.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/POJO/Mobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/POJO/WebAutomation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/POJO/courses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/POJO/getCourse.java" afterDir="false" />
+    <list default="true" id="0dd290c5-5d50-4f36-afbf-d65888a3b318" name="Changes" comment="26/11/2024 - 09:12 AM">
+      <change afterPath="$PROJECT_DIR$/src/test/java/POJO/OAuthTestWithPOJO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/POJO/WebAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/POJO/WebAutomation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/POJO/courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/POJO/courses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/POJO/getCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/POJO/getCourse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
       <recent name="D:\RESTful\API_Framework\src\test\java\files\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OAuthTest">
+  <component name="RunManager" selected="Application.OAuthTestWithPOJO">
     <configuration name="BugTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="files.BugTest" />
       <module name="API_Framework" />
@@ -94,6 +92,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OAuthTestWithPOJO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="POJO.OAuthTestWithPOJO" />
+      <module name="API_Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="POJO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="readJSONFromStaticFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="files.readJSONFromStaticFile" />
       <module name="API_Framework" />
@@ -103,24 +114,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dynamicJSON.AddBook (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="API_Framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="libraryAPI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="libraryAPI" />
-      <option name="MAIN_CLASS_NAME" value="libraryAPI.dynamicJSON" />
-      <option name="METHOD_NAME" value="AddBook" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OAuthTestWithPOJO" />
         <item itemvalue="Application.OAuthTest" />
         <item itemvalue="Application.BugTest" />
         <item itemvalue="Application.readJSONFromStaticFile" />
         <item itemvalue="TestNG.dynamicJSON.AddBook" />
-        <item itemvalue="TestNG.dynamicJSON.AddBook (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732119044408</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="26/11/2024 - 09:12 AM">
+      <created>1732592541267</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732592541267</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +217,7 @@
     <MESSAGE value="19/11/2024 - 09:02 AM" />
     <MESSAGE value="20/11/2024 - 11:51 AM" />
     <MESSAGE value="20/11/2024 - 09:40 PM" />
-    <option name="LAST_COMMIT_MESSAGE" value="20/11/2024 - 09:40 PM" />
+    <MESSAGE value="26/11/2024 - 09:12 AM" />
+    <option name="LAST_COMMIT_MESSAGE" value="26/11/2024 - 09:12 AM" />
   </component>
 </project>
