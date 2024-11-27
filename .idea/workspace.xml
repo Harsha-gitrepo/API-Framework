@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd290c5-5d50-4f36-afbf-d65888a3b318" name="Changes" comment="26/11/2024 - 09:12 AM">
-      <change afterPath="$PROJECT_DIR$/src/test/java/POJO/OAuthTestWithPOJO.java" afterDir="false" />
+    <list default="true" id="0dd290c5-5d50-4f36-afbf-d65888a3b318" name="Changes" comment="27/11/2024 - 09:05 AM">
+      <change afterPath="$PROJECT_DIR$/src/test/java/DeserializeCoursesWithPOJO/OAuthTestWithPOJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GoogleMapsSerializationWithPOJO/addPlacePOJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GoogleMapsSerializationWithPOJO/location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GoogleMapsSerializationWithPOJO/serializeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/POJO/WebAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/POJO/WebAutomation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/POJO/courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/POJO/courses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/POJO/getCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/POJO/getCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/POJO/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeserializeCoursesWithPOJO/Api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/POJO/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeserializeCoursesWithPOJO/Mobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/POJO/OAuthTestWithPOJO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/POJO/WebAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeserializeCoursesWithPOJO/WebAutomation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/POJO/courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeserializeCoursesWithPOJO/courses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/POJO/getCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeserializeCoursesWithPOJO/getCourse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,26 +52,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/RESTful/API_Framework/src/test/java/files/resources&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/RESTful/API_Framework/src/test/java/files/resources",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\RESTful\API_Framework\src\test\java\files\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OAuthTestWithPOJO">
+  <component name="RunManager" selected="Application.readJSONFromStaticFile">
     <configuration name="BugTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="files.BugTest" />
       <module name="API_Framework" />
@@ -93,11 +102,11 @@
       </method>
     </configuration>
     <configuration name="OAuthTestWithPOJO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="POJO.OAuthTestWithPOJO" />
+      <option name="MAIN_CLASS_NAME" value="DeserializeCoursesWithPOJO.OAuthTestWithPOJO" />
       <module name="API_Framework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="POJO.*" />
+          <option name="PATTERN" value="DeserializeCoursesWithPOJO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,10 +147,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.readJSONFromStaticFile" />
         <item itemvalue="Application.OAuthTestWithPOJO" />
         <item itemvalue="Application.OAuthTest" />
         <item itemvalue="Application.BugTest" />
-        <item itemvalue="Application.readJSONFromStaticFile" />
         <item itemvalue="TestNG.dynamicJSON.AddBook" />
       </list>
     </recent_temporary>
@@ -197,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732592541267</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="27/11/2024 - 09:05 AM">
+      <created>1732678543665</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732678543665</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +234,11 @@
     <MESSAGE value="20/11/2024 - 11:51 AM" />
     <MESSAGE value="20/11/2024 - 09:40 PM" />
     <MESSAGE value="26/11/2024 - 09:12 AM" />
-    <option name="LAST_COMMIT_MESSAGE" value="26/11/2024 - 09:12 AM" />
+    <MESSAGE value="27/11/2024 - 09:05 AM" />
+    <option name="LAST_COMMIT_MESSAGE" value="27/11/2024 - 09:05 AM" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

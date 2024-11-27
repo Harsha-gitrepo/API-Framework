@@ -1,4 +1,4 @@
-package POJO;
+package DeserializeCoursesWithPOJO;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -38,10 +38,10 @@ public class getCourse {
         this.expertise = expertise;
     }
 
-    public POJO.courses getCourses() {
+    public DeserializeCoursesWithPOJO.courses getCourses() {
         return courses;
     }
-    public void setCourses(POJO.courses courses) {
+    public void setCourses(DeserializeCoursesWithPOJO.courses courses) {
         this.courses = courses;
     }
 
@@ -58,6 +58,4 @@ public class getCourse {
     public void setLinkedin(String linkedin) {
         this.linkedIn = linkedIn;
     }
-
-
 }

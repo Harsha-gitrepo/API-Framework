@@ -1,13 +1,13 @@
-package POJO;
+package DeserializeCoursesWithPOJO;
 
-public class WebAutomation {
-
+public class Mobile {
     private String courseTitle;
     private String price;
 
     public String getCourseTitle() {
         return courseTitle;
     }
+
     public void setCourseTitle(String courseTitle) {
         this.courseTitle = courseTitle;
     }
@@ -15,6 +15,7 @@ public class WebAutomation {
     public String getPrice() {
         return price;
     }
+
     public void setPrice(String price) {
         this.price = price;
     }

@@ -1,4 +1,4 @@
-package POJO;
+package DeserializeCoursesWithPOJO;
 
 import java.util.List;
 
