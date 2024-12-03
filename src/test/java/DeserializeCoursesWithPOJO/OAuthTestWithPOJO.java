@@ -19,7 +19,6 @@ public class OAuthTestWithPOJO {
                 formParam("scope", "trust").
                 when().log().all().
                 post("https://rahulshettyacademy.com/oauthapi/oauth2/resourceOwner/token").asString();
-
         System.out.println(response);
 
         JsonPath js = new JsonPath(response);
@@ -28,6 +27,7 @@ public class OAuthTestWithPOJO {
         getCourse gc = given().log().all().queryParam("access_token", access_token).
                 when().get("https://rahulshettyacademy.com/oauthapi/getCourseDetails").as(getCourse.class);
 
+        //Start of DESERIALIZATION
         System.out.println(gc.getInstructor());
         System.out.println(gc.getLinkedin());
         System.out.println(gc.getCourses().getApi().get(1).getCourseTitle());
