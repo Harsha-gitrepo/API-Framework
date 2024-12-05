@@ -4,11 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd290c5-5d50-4f36-afbf-d65888a3b318" name="Changes" comment="03/12/2024 - 15:37 AM">
-      <change afterPath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/orderDetailsPOJO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/ordersPOJO.java" afterDir="false" />
+    <list default="true" id="0dd290c5-5d50-4f36-afbf-d65888a3b318" name="Changes" comment="05/12/2024 - 11:17 PM">
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/placeValidations.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/eCommerceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/eCommerceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeserializeCoursesWithPOJO/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/DeserializeCoursesWithPOJO/Api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeserializeCoursesWithPOJO/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/DeserializeCoursesWithPOJO/Mobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeserializeCoursesWithPOJO/OAuthTestWithPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/DeserializeCoursesWithPOJO/OAuthTestWithPOJO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeserializeCoursesWithPOJO/WebAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/DeserializeCoursesWithPOJO/WebAutomation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeserializeCoursesWithPOJO/courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/DeserializeCoursesWithPOJO/courses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeserializeCoursesWithPOJO/getCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/DeserializeCoursesWithPOJO/getCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GoogleMapsSerializationWithPOJO/addPlacePOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/GoogleMapsSerializationWithPOJO/addPlacePOJO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GoogleMapsSerializationWithPOJO/location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/GoogleMapsSerializationWithPOJO/location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GoogleMapsSerializationWithPOJO/serializeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/GoogleMapsSerializationWithPOJO/serializeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GoogleMapsSerializationWithPOJO/specBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/GoogleMapsSerializationWithPOJO/specBuilderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OAuthTest/OAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/OAuthTest/OAuthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/LoginRequestPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/eCommerceAPITest/LoginRequestPOJO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/eCommerceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/eCommerceAPITest/eCommerceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/loginResponsePOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/eCommerceAPITest/loginResponsePOJO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/orderDetailsPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/eCommerceAPITest/orderDetailsPOJO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/ordersPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/eCommerceAPITest/ordersPOJO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/files/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/files/Basics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/files/BugTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/files/BugTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/files/complexJSONParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/files/complexJSONParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/files/payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/files/payload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/files/reUsableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/files/reUsableMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/files/readJSONFromStaticFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/files/readJSONFromStaticFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/libraryAPI/dynamicJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/libraryAPI/dynamicJSON.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,23 +67,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/RESTful/API_Framework/src/test/java/files/resources",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/RESTful/API_Framework/src/test/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\RESTful\API_Framework\src\test\java\files\resources" />
@@ -215,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733220465640</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="05/12/2024 - 09:17 AM">
+      <created>1733370487925</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733370487925</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +268,9 @@
     <MESSAGE value="27/11/2024 - 09:05 AM" />
     <MESSAGE value="27/11/2024 - 11:53 AM" />
     <MESSAGE value="03/12/2024 - 15:37 AM" />
-    <option name="LAST_COMMIT_MESSAGE" value="03/12/2024 - 15:37 AM" />
+    <MESSAGE value="05/12/2024 - 09:17 AM" />
+    <MESSAGE value="05/12/2024 - 11:17 PM" />
+    <option name="LAST_COMMIT_MESSAGE" value="05/12/2024 - 11:17 PM" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
