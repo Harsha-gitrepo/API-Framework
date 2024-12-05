@@ -5,32 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dd290c5-5d50-4f36-afbf-d65888a3b318" name="Changes" comment="05/12/2024 - 11:17 PM">
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/placeValidations.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/Options/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DeserializeCoursesWithPOJO/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/DeserializeCoursesWithPOJO/Api.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DeserializeCoursesWithPOJO/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/DeserializeCoursesWithPOJO/Mobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DeserializeCoursesWithPOJO/OAuthTestWithPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/DeserializeCoursesWithPOJO/OAuthTestWithPOJO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DeserializeCoursesWithPOJO/WebAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/DeserializeCoursesWithPOJO/WebAutomation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DeserializeCoursesWithPOJO/courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/DeserializeCoursesWithPOJO/courses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DeserializeCoursesWithPOJO/getCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/DeserializeCoursesWithPOJO/getCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GoogleMapsSerializationWithPOJO/addPlacePOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/GoogleMapsSerializationWithPOJO/addPlacePOJO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GoogleMapsSerializationWithPOJO/location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/GoogleMapsSerializationWithPOJO/location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GoogleMapsSerializationWithPOJO/serializeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/GoogleMapsSerializationWithPOJO/serializeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GoogleMapsSerializationWithPOJO/specBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/GoogleMapsSerializationWithPOJO/specBuilderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OAuthTest/OAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/OAuthTest/OAuthTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/LoginRequestPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/eCommerceAPITest/LoginRequestPOJO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/eCommerceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/eCommerceAPITest/eCommerceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/loginResponsePOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/eCommerceAPITest/loginResponsePOJO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/orderDetailsPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/eCommerceAPITest/orderDetailsPOJO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/ordersPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/eCommerceAPITest/ordersPOJO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/files/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/files/Basics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/files/BugTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/files/BugTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/files/complexJSONParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/files/complexJSONParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/files/payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/files/payload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/files/reUsableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/files/reUsableMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/files/readJSONFromStaticFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/files/readJSONFromStaticFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/libraryAPI/dynamicJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/APIBasics/libraryAPI/dynamicJSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/placeValidations.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/placeValidations.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,20 +67,7 @@
       <recent name="D:\RESTful\API_Framework\src\test\java\files\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.eCommerceTest">
-    <configuration name="OAuthTestWithPOJO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DeserializeCoursesWithPOJO.OAuthTestWithPOJO" />
-      <module name="API_Framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DeserializeCoursesWithPOJO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="eCommerceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="eCommerceAPITest.eCommerceTest" />
       <module name="API_Framework" />
@@ -155,13 +120,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="API_Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.Options.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cucumber.Options" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.Options.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Application.eCommerceTest" />
         <item itemvalue="Application.specBuilderTest" />
         <item itemvalue="Application.serializeTest" />
         <item itemvalue="Application.readJSONFromStaticFile" />
-        <item itemvalue="Application.OAuthTestWithPOJO" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733370487925</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="05/12/2024 - 11:17 PM">
+      <created>1733420853959</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733420853959</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
