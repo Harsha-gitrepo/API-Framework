@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd290c5-5d50-4f36-afbf-d65888a3b318" name="Changes" comment="27/11/2024 - 11:53 AM">
-      <change afterPath="$PROJECT_DIR$/src/test/java/GoogleMapsSerializationWithPOJO/specBuilderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/LoginRequestPOJO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/eCommerceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/loginResponsePOJO.java" afterDir="false" />
+    <list default="true" id="0dd290c5-5d50-4f36-afbf-d65888a3b318" name="Changes" comment="03/12/2024 - 15:37 AM">
+      <change afterPath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/orderDetailsPOJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/ordersPOJO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DeserializeCoursesWithPOJO/OAuthTestWithPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeserializeCoursesWithPOJO/OAuthTestWithPOJO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GoogleMapsSerializationWithPOJO/serializeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoogleMapsSerializationWithPOJO/serializeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/eCommerceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/eCommerceAPITest/eCommerceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,23 +45,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/RESTful/API_Framework/src/test/java/files/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/RESTful/API_Framework/src/test/java/files/resources",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\RESTful\API_Framework\src\test\java\files\resources" />
@@ -211,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732688638713</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="03/12/2024 - 15:37 AM">
+      <created>1733220465640</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733220465640</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,7 +238,8 @@
     <MESSAGE value="26/11/2024 - 09:12 AM" />
     <MESSAGE value="27/11/2024 - 09:05 AM" />
     <MESSAGE value="27/11/2024 - 11:53 AM" />
-    <option name="LAST_COMMIT_MESSAGE" value="27/11/2024 - 11:53 AM" />
+    <MESSAGE value="03/12/2024 - 15:37 AM" />
+    <option name="LAST_COMMIT_MESSAGE" value="03/12/2024 - 15:37 AM" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
