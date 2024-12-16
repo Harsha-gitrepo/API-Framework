@@ -1,74 +1,83 @@
 package stepDefinitions;
 
-import GoogleMapsSerializationWithPOJO.addPlacePOJO;
-import GoogleMapsSerializationWithPOJO.location;
+//Using the POJO classes from the APIBAsics/GoogleMapsSerializationWithPOJO/addPlacePOJO class
+//Instead of recreating all the POJO classes, we are just reusing them
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.restassured.RestAssured;
-import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
+import resources.APIResources;
+import resources.TestDataBuild;
+import resources.utils;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 
 import static io.restassured.RestAssured.given;
+import static org.junit.Assert.*;
 
-public class StepDefinition {
+public class StepDefinition extends utils{
 
-    @Given("Add Place Payload")
-    public void add_place_payload() {
-        RestAssured.baseURI = "https://rahulshettyacademy.com";
+    //Declaring below variables globally, so that they can be accessed in all the given, when and then methods
+    RequestSpecification res;
+    ResponseSpecification respspec;
+    Response response;
+    TestDataBuild data = new TestDataBuild();
 
-        addPlacePOJO p = new addPlacePOJO(); //Creating addPlacePOJO class object
+    @Given("Add Place Payload {string} {string} {string}")
+    public void add_place_payload(String name, String language, String address) throws IOException {
 
-        //Start of SERIALIZATION
-        //Setting all the direct JSON body values
-        p.setAccuracy(50);
-        p.setAddress("29, side layout, cohen 09");
-        p.setName("Frontline house");
-        p.setPhone_number("(+91) 983 893 3937");
-        p.setWebsite("https://rahulshettyacademy.com ");
-        p.setLanguage("French-IN");
+        res = given().spec(requestSpec()).body(data.addPlacePayLoad(name, language, address));
+    }
 
-        //Setting Types values
-        List<String> typesList = new ArrayList<String>();
-        typesList.add("shoe park");
-        typesList.add("shop");
-        p.setTypes(typesList);
 
-        //Setting location values
-        location l = new location(); //Creating location class object and passing this object to setLocation method
-        l.setLat(-38.383494);
-        l.setLng(33.427362);
-        p.setLocation(l);
+    @When("user calls {string} with {string} http request")
+    public void user_calls_with_post_http_request(String resource, String httpMethod) {
 
-        RequestSpecification req = new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com").
-                addQueryParam("key", "qaclick123").
-                setContentType(ContentType.JSON).build();
+        APIResources resourceAPI = APIResources.valueOf(resource);
+        System.out.println(resourceAPI.getResource());
 
-        ResponseSpecification respspec = new ResponseSpecBuilder().expectStatusCode(200).
+        respspec = new ResponseSpecBuilder().expectStatusCode(200).
                 expectContentType(ContentType.JSON).build();
 
-        RequestSpecification res = given().spec(req).body(p);
-    }
-    @When("user calls {string} with Post http request")
-    public void user_calls_with_post_http_request(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
-    @Then("the API call is success with status code {int}")
-    public void the_api_call_is_success_with_status_code(Integer int1) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
-    @Then("{string} in response body is {string}")
-    public void in_response_body_is(String string, String string2) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        if (httpMethod.equalsIgnoreCase("Post"))
+        {
+            response = res.when().post(resourceAPI.getResource());
+        }
+        else if (httpMethod.equalsIgnoreCase("Get"))
+        {
+            response = res.when().get(resourceAPI.getResource());
+        }
     }
 
+
+    @Then("the API call is success with status code {int}")
+    public void the_api_call_is_success_with_status_code(Integer int1)
+    {
+        assertEquals(response.getStatusCode(), 200);
+    }
+
+
+    @Then("{string} in response body is {string}")
+    public void in_response_body_is(String keyValue, String expectedValue)
+    {
+        assertEquals(getJSONPath(response, keyValue).toString(), expectedValue);
+    }
+
+
+    @Then("verify place_Id created maps to {string} using {string}")
+    public void verify_place_id_created_maps_to_using(String expectedName, String resource) throws IOException
+    {
+        //get API call
+        String place_id =  getJSONPath(response, "place_id");
+        res = given().spec(requestSpec()).queryParam("place_id", place_id);
+        user_calls_with_post_http_request(resource, "GET");
+        String actualName =  getJSONPath(response, "name");
+        assertEquals(actualName, expectedName);
+    }
 }

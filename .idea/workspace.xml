@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd290c5-5d50-4f36-afbf-d65888a3b318" name="Changes" comment="05/12/2024 - 11:17 PM">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/Options/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinition.java" afterDir="false" />
+    <list default="true" id="0dd290c5-5d50-4f36-afbf-d65888a3b318" name="Changes" comment="05/12/2024 - 11:40 PM">
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/APIResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/TestDataBuild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/global.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/placeValidations.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/placeValidations.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +69,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\RESTful\API_Framework\src\test\java\files\resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="resources" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="eCommerceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -81,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="readJSONFromStaticFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="files.readJSONFromStaticFile" />
+    <configuration name="reverser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="resources.reverser" />
       <module name="API_Framework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="files.*" />
+          <option name="PATTERN" value="resources.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,10 +144,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Application.reverser" />
         <item itemvalue="Application.eCommerceTest" />
         <item itemvalue="Application.specBuilderTest" />
         <item itemvalue="Application.serializeTest" />
-        <item itemvalue="Application.readJSONFromStaticFile" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733420853959</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="05/12/2024 - 11:40 PM">
+      <created>1733422228932</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733422228932</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,7 +270,8 @@
     <MESSAGE value="03/12/2024 - 15:37 AM" />
     <MESSAGE value="05/12/2024 - 09:17 AM" />
     <MESSAGE value="05/12/2024 - 11:17 PM" />
-    <option name="LAST_COMMIT_MESSAGE" value="05/12/2024 - 11:17 PM" />
+    <MESSAGE value="05/12/2024 - 11:40 PM" />
+    <option name="LAST_COMMIT_MESSAGE" value="05/12/2024 - 11:40 PM" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
