@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd290c5-5d50-4f36-afbf-d65888a3b318" name="Changes" comment="05/12/2024 - 11:40 PM">
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/APIResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/TestDataBuild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/global.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/utils.java" afterDir="false" />
+    <list default="true" id="0dd290c5-5d50-4f36-afbf-d65888a3b318" name="Changes" comment="16/12/2024 - 12:30 PM">
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/Options/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/Options/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/placeValidations.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/placeValidations.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/TestDataBuild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/TestDataBuild.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -244,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733422228932</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="16/12/2024 - 12:30 PM">
+      <created>1734332478898</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1734332478898</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,7 +278,8 @@
     <MESSAGE value="05/12/2024 - 09:17 AM" />
     <MESSAGE value="05/12/2024 - 11:17 PM" />
     <MESSAGE value="05/12/2024 - 11:40 PM" />
-    <option name="LAST_COMMIT_MESSAGE" value="05/12/2024 - 11:40 PM" />
+    <MESSAGE value="16/12/2024 - 12:30 PM" />
+    <option name="LAST_COMMIT_MESSAGE" value="16/12/2024 - 12:30 PM" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
